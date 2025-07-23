@@ -22,7 +22,7 @@ public class App
         Scanner sc= new Scanner(System.in);
         
         int opration = sc.nextInt();
-        
+        //swuch case
         switch(opration) {
         case 1 : 
         	r.bookTicket();
