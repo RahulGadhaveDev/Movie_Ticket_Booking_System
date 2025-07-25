@@ -58,7 +58,7 @@ public class Repo {
 		transaction.commit();
 		session.close();
 	}
-
+//update the data
 	public void updateNumber() {
 		SessionFactory factory = TicketUtility.getfactory();
 		Session session = factory.openSession();
