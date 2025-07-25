@@ -14,6 +14,7 @@ public class Repo {
 
 	Scanner sc = new Scanner(System.in);
 
+//post tiket the database
 	public void bookTicket() {
 		UserDetail user = new UserDetail();
 
@@ -86,8 +87,8 @@ public class Repo {
 				.createQuery("select u from UserDetail u where u.customerName = :customerName", UserDetail.class)
 				.setParameter("customerName", customerName).getResultList();
 
-		for(UserDetail u: user) {
-			
+		for (UserDetail u : user) {
+
 			session.remove(u);
 		}
 		transaction.commit();
