@@ -45,6 +45,7 @@ public class Repo {
 
 	}
 
+	//get all student data
 	public void getAll() {
 		SessionFactory factory = TicketUtility.getfactory();
 		Session session = factory.openSession();
