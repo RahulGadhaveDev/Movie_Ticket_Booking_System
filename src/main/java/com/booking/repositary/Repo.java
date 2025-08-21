@@ -76,6 +76,7 @@ public class Repo {
 		session.close();
 	}
 
+	//delete user from database
 	public void deleteUser() {
 		SessionFactory factory = TicketUtility.getfactory();
 		Session session = factory.openSession();
