@@ -45,7 +45,7 @@ public class Repo {
 
 	}
 
-	//get all student data
+	//get all student
 	public void getAll() {
 		SessionFactory factory = TicketUtility.getfactory();
 		Session session = factory.openSession();
@@ -76,7 +76,6 @@ public class Repo {
 		session.close();
 	}
 
-	//delete user from database
 	public void deleteUser() {
 		SessionFactory factory = TicketUtility.getfactory();
 		Session session = factory.openSession();
