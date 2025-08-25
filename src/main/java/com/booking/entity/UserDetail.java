@@ -21,7 +21,8 @@ public class UserDetail {
 	private String showTime;
 	
 	private int seatsBooked;
-	//user entity class
+	//user entity c
+	
 
 	public int getId() {
 		return id;
